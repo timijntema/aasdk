@@ -34,7 +34,7 @@ namespace aasdk
 namespace messenger
 {
 
-class Message: boost::noncopyable
+class Message: boost::asio::noncopyable
 {
 public:
     typedef std::shared_ptr<Message> Pointer;
