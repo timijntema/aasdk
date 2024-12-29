@@ -20,7 +20,7 @@
 #include <openssl/engine.h>
 #include <openssl/err.h>
 #include <openssl/ssl.h>
-#include <openssl/fips.h>
+#include <openssl/crypto.h>
 #include <openssl/conf.h>
 #include <f1x/aasdk/Transport/SSLWrapper.hpp>
 
